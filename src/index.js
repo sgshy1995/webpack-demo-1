@@ -4,6 +4,8 @@ import './style-two.less'
 import './style-three.styl'
 import png from './assets/one.png'
 
+console.log('hi')
+
 const logo = document.getElementById('logo')
 logo.innerHTML = `
   <img src="${png}">
